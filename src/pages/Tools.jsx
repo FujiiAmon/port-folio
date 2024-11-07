@@ -86,6 +86,7 @@ export const Tools = () => {
 const SGrid = styled.div`
     background-color: aquamarine;
     display: grid;
+    gap: 15px;
     padding: 5%;
     grid-template-columns: 1fr 1fr 1fr;
     border-radius: 10px;

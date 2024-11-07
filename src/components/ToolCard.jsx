@@ -4,15 +4,15 @@ export const ToolCard = (props) => {
         <>
             <div
                 style={{
-                    width: "170px",
+                    width: "100%",
                     display: "flex",
                     alignItems: "center",
                     flexDirection: "column",
+                    margin: "0",
+                    padding: "0",
                     border: "solid",
                     borderColor: "whitesmoke",
                     borderRadius: "10px",
-                    margin: "5px",
-                    paddingBottom: "0px",
                 }}
             >
                 <div

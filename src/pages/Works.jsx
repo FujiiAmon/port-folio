@@ -54,7 +54,8 @@ export const Works = () => {
 const SGrid = styled.div`
     background-color: violet;
     display: grid;
-    padding: 5%;
+    padding: 3% 2%;
+    gap: 10px;
     grid-template-columns: 1fr 1fr;
     border-radius: 10px;
 `;
