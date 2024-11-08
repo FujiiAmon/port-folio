@@ -12,7 +12,7 @@ import blog from "../assets/blog.png";
 export const Works = () => {
     return (
         <>
-            <h1 style={{ textAlign: "left" }}>Works</h1>
+            <h1 style={{ textAlign: "left", marginLeft: "10px" }}>Works</h1>
             <SGrid>
                 <WorkCard
                     src={narrowescape}
@@ -63,6 +63,7 @@ export const Works = () => {
 const SGrid = styled.div`
     background-color: violet;
     display: grid;
+    margin: 5%;
     padding: 3% 2%;
     gap: 10px;
     grid-template-columns: 1fr 1fr;

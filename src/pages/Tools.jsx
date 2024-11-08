@@ -4,7 +4,7 @@ import { ToolCard } from "../components/ToolCard";
 export const Tools = () => {
     return (
         <>
-            <h1 style={{ textAlign: "left" }}>Tools</h1>
+            <h1 style={{ textAlign: "left", marginLeft: "10px" }}>Tools</h1>
 
             <SGrid>
                 <ToolCard
@@ -84,6 +84,7 @@ export const Tools = () => {
 };
 
 const SGrid = styled.div`
+    margin: 5%;
     background-color: aquamarine;
     display: grid;
     gap: 15px;

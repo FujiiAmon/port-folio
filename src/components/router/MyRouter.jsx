@@ -9,12 +9,12 @@ export const MyRouter = () => {
         <BrowserRouter basename="/">
             <SHeader>
                 PortFolio
-                <Link to="/">About</Link>
+                <Link to="/port-folio">About</Link>
                 <Link to="/tools">Tools</Link>
                 <Link to="/works">Works</Link>
             </SHeader>
             <Routes>
-                <Route path="/" element={<Profile />} />
+                <Route path="/port-folio" element={<Profile />} />
                 <Route path="/tools" element={<Tools />} />
                 <Route path="/works" element={<Works />} />
             </Routes>

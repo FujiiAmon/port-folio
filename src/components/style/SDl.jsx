@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const SDl = styled.dl`
-    width: 100%;
+    width: 90%;
+    margin: auto;
     color: dimgray;
     background-color: whitesmoke;
     border-radius: 10px;

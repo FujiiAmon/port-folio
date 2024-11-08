@@ -5,7 +5,7 @@ import { SDl } from "../components/style/SDl";
 export const Profile = () => {
     return (
         <>
-            <h1 style={{ textAlign: "left" }}>About</h1>
+            <h1 style={{ textAlign: "left", marginLeft: "10px" }}>About</h1>
             <SContainer style={{ margin: "0 auto" }}>
                 <SP>Profile</SP>
                 <SDl>
