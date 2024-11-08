@@ -26,7 +26,7 @@ export const WorkCard = (props) => {
                     src={src}
                     width={"200px"}
                     height={"300px"}
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: "cover" }}
                 />
                 <p style={{ textAlign: "left", padding: "10px" }}>{des}</p>
             </div>

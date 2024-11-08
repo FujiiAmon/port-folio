@@ -7,6 +7,7 @@ import kasou from "../assets/kasou.png";
 import kouya from "../assets/kouya.png";
 import media1 from "../assets/media1.png";
 import media2 from "../assets/media2.png";
+import blog from "../assets/blog.png";
 
 export const Works = () => {
     return (
@@ -37,6 +38,14 @@ export const Works = () => {
                     text={"poke-pedia"}
                     des={
                         "pokeAPIからデータを引っ張ってきてそれっぽく表示させる。APIからデータを引っ張ってくるときの非同期処理の勉強になった。"
+                    }
+                />
+                <WorkCard
+                    src={blog}
+                    link={"https://fujiiamon.github.io/blog-firebase/"}
+                    text={"掲示板"}
+                    des={
+                        "firebaseでのデータベースの使い方を学ぶために作成。ログイン機能を実装し、ログインしたときのアカウント名が記載される。ログインしていなくても書けるがその場合は”名無しさんと表示される。そろそろcssを特訓したい。”"
                     }
                 />
             </SGrid>
