@@ -20,7 +20,9 @@ export const Works = () => {
             <SGrid>
                 <WorkCard
                     src={narrowescape}
-                    link={"./assets/main.zip"}
+                    link={
+                        "https://github.com/FujiiAmon/narrow-escape/blob/main/dist/main.zip"
+                    }
                     download=""
                     text={"narrow-escape"}
                     des={
