@@ -20,7 +20,7 @@ export const Works = () => {
             <SGrid>
                 <WorkCard
                     src={narrowescape}
-                    link={"/port-folio/src/assets/main.zip"}
+                    link={"./assets/main.zip"}
                     download=""
                     text={"narrow-escape"}
                     des={
