@@ -14,13 +14,14 @@ export const Works = () => {
     return (
         <>
             <h1 style={{ textAlign: "left", marginLeft: "10px" }}>
-                Works※テキストをクリックするとそのページに飛びます
+                Works※タイトルクリックでそのページへ
             </h1>
+
             <SGrid>
                 <WorkCard
                     src={narrowescape}
-                    link={"src/assets/main.zip"}
-                    download="narrow-escape"
+                    link={"/port-folio/src/assets/main.zip"}
+                    download=""
                     text={"narrow-escape"}
                     des={
                         "避けゲー。pyinstallerを使ってexe化した。もっと手軽に遊べるようにしたい。"
