@@ -13,14 +13,17 @@ import appleple from "../assets/appleple.png";
 export const Works = () => {
     return (
         <>
-            <h1 style={{ textAlign: "left", marginLeft: "10px" }}>Works</h1>
+            <h1 style={{ textAlign: "left", marginLeft: "10px" }}>
+                Works※テキストをクリックするとそのページに飛びます
+            </h1>
             <SGrid>
                 <WorkCard
                     src={narrowescape}
-                    link={"https://github.com/FujiiAmon/NarrowEscape/settings"}
-                    text={"自作ゲーム"}
+                    link={"src/assets/main.zip"}
+                    download="narrow-escape"
+                    text={"narrow-escape"}
                     des={
-                        "コードをただ並べただけにとどまってしまっている。WEB上で動かせるようにしたい。"
+                        "避けゲー。pyinstallerを使ってexe化した。もっと手軽に遊べるようにしたい。"
                     }
                 />
                 <WorkCard
