@@ -4,7 +4,7 @@ import { ToolCard } from "../components/ToolCard";
 export const Tools = () => {
     return (
         <>
-            <h1 style={{ textAlign: "left", marginLeft: "10px" }}>Tools</h1>
+            <h1 style={{ textAlign: "left", marginLeft: "5%" }}>Tools</h1>
 
             <SGrid>
                 <ToolCard
@@ -21,9 +21,21 @@ export const Tools = () => {
                 />
                 <ToolCard
                     src={"https://img.icons8.com/color/96/html-5--v1.png"}
-                    text={"html CSS"}
+                    text={"html"}
                     lev={":★☆☆☆☆"}
-                    des={"JPHACKSのアプリ開発で使用。現在勉強中。"}
+                    des={"プレーンで使用することはほぼナシ。現在勉強中。"}
+                />
+                <ToolCard
+                    src={"https://img.icons8.com/color/96/css3.png"}
+                    text={"CSS"}
+                    lev={":★★☆☆☆"}
+                    des={"プレーンで使用することはほぼナシ。現在勉強中。"}
+                />
+                <ToolCard
+                    src={"https://img.icons8.com/color/96/react-native.png"}
+                    text={"react"}
+                    lev={":★★☆☆☆"}
+                    des={"自主制作でいくつかのアプリを作った。現在勉強中。"}
                 />
                 <ToolCard
                     src={
@@ -84,11 +96,12 @@ export const Tools = () => {
 };
 
 const SGrid = styled.div`
-    margin: 5%;
+    width: 90%;
+    margin: auto;
     background-color: aquamarine;
     display: grid;
-    gap: 15px;
-    padding: 5%;
-    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3vh;
+    padding: 3vh;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     border-radius: 10px;
 `;

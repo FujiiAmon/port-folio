@@ -3,6 +3,7 @@ import { WorkCard } from "../components/WorkCard";
 import narrowescape from "../assets/narrowescape.png";
 import jphacks from "../assets/jphacks.png";
 import pokePedia from "../assets/poke-pedia.png";
+import techbase from "../assets/techbase.png";
 import kasou from "../assets/kasou.png";
 import kouya from "../assets/kouya.png";
 import media1 from "../assets/media1.png";
@@ -13,9 +14,26 @@ import appleple from "../assets/appleple.png";
 export const Works = () => {
     return (
         <>
-            <h1 style={{ textAlign: "left", marginLeft: "10px" }}>
-                Works※タイトルクリックでそのページへ
+            <h1
+                style={{
+                    textAlign: "left",
+                    marginLeft: "10px",
+                }}
+            >
+                Works
             </h1>
+
+            <p
+                style={{
+                    fontWeight: "bold",
+                    textAlign: "left",
+                    marginLeft: "5%",
+                    marginTop: "0",
+                    marginBottom: "0",
+                }}
+            >
+                自主制作アプリ※タイトルをクリックするとアプリに飛べます
+            </p>
 
             <SGrid>
                 <WorkCard
@@ -64,8 +82,25 @@ export const Works = () => {
                     }
                 />
             </SGrid>
-            <p>その他デザインなど</p>
+            <p
+                style={{
+                    fontWeight: "bold",
+                    textAlign: "left",
+                    marginLeft: "5%",
+                    marginTop: "0",
+                    marginBottom: "0",
+                }}
+            >
+                その他活動の成果
+            </p>
             <SGrid>
+                <WorkCard
+                    src={techbase}
+                    text={"TECH-BASEでMVPを獲得!!"}
+                    des={
+                        "１か月間8人のチームでPHPの勉強をしてチーム間で成果を競う無償インターンに参加しました。ありがたいことに優勝＆MVP獲得しました。とても忙しかったですが、遠くの人とまめに連絡をとって作業をするのが新鮮で面白かったです。"
+                    }
+                ></WorkCard>
                 <WorkCard src={kasou} text={"名大祭の企画宣伝ビラ"} />
                 <WorkCard src={kouya} text={"名大祭の後夜祭のロゴ"} />
                 <WorkCard src={media1} text={"生協機関紙の表紙１"} />
@@ -78,9 +113,9 @@ export const Works = () => {
 const SGrid = styled.div`
     background-color: violet;
     display: grid;
-    margin: 5%;
-    padding: 3% 2%;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    margin: 3%;
+    padding: 2%;
+    gap: 3vh;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     border-radius: 10px;
 `;

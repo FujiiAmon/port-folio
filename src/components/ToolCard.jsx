@@ -5,9 +5,6 @@ export const ToolCard = (props) => {
             <div
                 style={{
                     width: "100%",
-                    display: "flex",
-                    alignItems: "center",
-                    flexDirection: "column",
                     margin: "0",
                     padding: "0",
                     border: "solid",
@@ -15,27 +12,29 @@ export const ToolCard = (props) => {
                     borderRadius: "10px",
                 }}
             >
+                <p
+                    style={{
+                        width: "100%",
+                        textDecoration: "underline",
+                        fontSize: "90%",
+                    }}
+                >
+                    {text + lev}
+                </p>
                 <div
                     style={{
+                        width: "100%",
                         display: "flex",
-                        textDecoration: "underline",
+                        flexDirection: "column",
                         alignItems: "center",
                     }}
                 >
-                    <p>{text}</p>
-                    <p>{lev}</p>
-                </div>
-                <div
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                    }}
-                >
                     <img
-                        width="100px"
-                        height="100px"
                         src={src}
                         style={{
+                            width: "90%",
+                            aspectRatio: "1/1",
+                            objectFit: "cover",
                             backgroundColor: "Whitesmoke",
                             borderRadius: "10px",
                         }}
@@ -43,7 +42,8 @@ export const ToolCard = (props) => {
                     <p
                         style={{
                             textAlign: "left",
-                            width: "100px",
+                            width: "90%",
+                            minHeight: "50px",
                             overflowWrap: "break-word",
                         }}
                     >

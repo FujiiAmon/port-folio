@@ -6,29 +6,46 @@ export const WorkCard = (props) => {
                 style={{
                     display: "flex",
                     flexDirection: "column",
-                    alignItems: "center",
+                    justifyContent: "space-around",
+                    width: "100%",
                     margin: "0",
                     padding: "0",
                     border: "solid",
-                    borderRadius: "10px",
                     borderColor: "whitesmoke",
+                    borderRadius: "10px",
+                    alignItems: "center",
                     backgroundColor: "whitesmoke",
-                    width: "100%",
                 }}
             >
                 <a
                     href={link || "javascript:void(0)"}
-                    style={{ paddingBottom: "5px" }}
+                    style={{
+                        width: "100%",
+                        textDecoration: "underline",
+                        fontSize: "90%",
+                    }}
                 >
                     {text}
                 </a>
                 <img
                     src={src}
-                    width={"200px"}
-                    height={"300px"}
-                    style={{ objectFit: "contain" }}
+                    style={{
+                        width: "90%",
+                        margin: "auto",
+                        objectFit: "contain",
+                    }}
                 />
-                <p style={{ textAlign: "left", padding: "10px" }}>{des}</p>
+                <p
+                    style={{
+                        margin: "auto",
+                        textAlign: "left",
+                        width: "90%",
+                        minHeight: "50px",
+                        overflowWrap: "break-word",
+                    }}
+                >
+                    {des}
+                </p>
             </div>
         </>
     );
