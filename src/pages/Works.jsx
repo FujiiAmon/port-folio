@@ -10,6 +10,7 @@ import media1 from "../assets/media1.png";
 import media2 from "../assets/media2.png";
 import blog from "../assets/blog.png";
 import appleple from "../assets/appleple.png";
+import beginnerhackason from "../assets/beginner-hacks.png";
 
 export const Works = () => {
     return (
@@ -79,6 +80,14 @@ export const Works = () => {
                     text={"写真の枚数に応じてレイアウトを整えるjsプログラム"}
                     des={
                         "cssの勉強がしたくなり、実際のweb制作会社での仕事を聞くのが手っ取り早いかと思ってアップルップルさんのところで3daysのインターンに参加してこの課題をした(公開許可取得済み)。プレーンのjsで記述したり、レスポンシブを意識したりと今まで考えてこなかったことを考えて制作をした。"
+                    }
+                />
+                <WorkCard
+                    src={beginnerhackason}
+                    link={"https://fujiiamon.github.io/beginners-hackason/"}
+                    text={"コミュニケーション促進アプリ"}
+                    des={
+                        "trackjobさん主催のビギナーズハッカソンに参加した際際に成。初対面の２人と８時間くらいかけて作成。テーマは「きっかけ」と「練習」。会うきっかけを作るための「パスコード交換機能」と会話を練習するための「AIとの会話練習機能」を実装。また、お互い共通して使用できる技術がhtml,css,jsだったのでこの３つのみで作成した。ハッカソンでは技術力以外よりも「機能を絞って実装しきる力」と「コミュ力」の２つが大事だなと思った。デプロイが上手くできない、、、"
                     }
                 />
             </SGrid>

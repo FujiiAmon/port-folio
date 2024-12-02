@@ -72,6 +72,7 @@ export const Profile = () => {
                     <dd>
                         無償インターンTECH-BASEに参加して参加者と１ケ月間PHPの勉強をする。優勝＆チーム内MVPを獲得した。
                     </dd>
+                    <dt>2024.12</dt>
                 </SDl>
             </SContainer>
         </>
