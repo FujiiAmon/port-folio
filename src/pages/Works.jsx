@@ -11,6 +11,7 @@ import media2 from "../assets/media2.png";
 import blog from "../assets/blog.png";
 import appleple from "../assets/appleple.png";
 import beginnerhackason from "../assets/beginner-hacks.png";
+import lineimgscan from "../assets/line-img-scan.png";
 
 export const Works = () => {
     return (
@@ -19,8 +20,7 @@ export const Works = () => {
                 style={{
                     textAlign: "left",
                     marginLeft: "10px",
-                }}
-            >
+                }}>
                 Works
             </h1>
 
@@ -31,8 +31,7 @@ export const Works = () => {
                     marginLeft: "5%",
                     marginTop: "0",
                     marginBottom: "0",
-                }}
-            >
+                }}>
                 自主制作アプリ※タイトルをクリックするとアプリに飛べます
             </p>
 
@@ -90,6 +89,14 @@ export const Works = () => {
                         "trackjobさん主催のビギナーズハッカソンに参加した際際に成。初対面の２人と８時間くらいかけて作成。テーマは「きっかけ」と「練習」。会うきっかけを作るための「パスコード交換機能」と会話を練習するための「AIとの会話練習機能」を実装。また、お互い共通して使用できる技術がhtml,css,jsだったのでこの３つのみで作成した。ハッカソンでは技術力以外よりも「機能を絞って実装しきる力」と「コミュ力」の２つが大事だなと思った。デプロイが上手くできない、、、"
                     }
                 />
+                <WorkCard
+                    src={lineimgscan}
+                    link={"https://github.com/FujiiAmon/line-img-scan"}
+                    text={"文字抽出エージェント"}
+                    des={
+                        "LINEの画像を送るとその画像に写っている文字を抽出して返してくれるLINEbot。初めてgasを使って作成した。画像処理はvisionAPIを使用。"
+                    }
+                />
             </SGrid>
             <p
                 style={{
@@ -98,8 +105,7 @@ export const Works = () => {
                     marginLeft: "5%",
                     marginTop: "0",
                     marginBottom: "0",
-                }}
-            >
+                }}>
                 その他活動の成果
             </p>
             <SGrid>
@@ -108,8 +114,7 @@ export const Works = () => {
                     text={"TECH-BASEでMVPを獲得!!"}
                     des={
                         "１か月間8人のチームでPHPの勉強をしてチーム間で成果を競う無償インターンに参加しました。ありがたいことに優勝＆MVP獲得しました。とても忙しかったですが、遠くの人とまめに連絡をとって作業をするのが新鮮で面白かったです。"
-                    }
-                ></WorkCard>
+                    }></WorkCard>
                 <WorkCard src={kasou} text={"名大祭の企画宣伝ビラ"} />
                 <WorkCard src={kouya} text={"名大祭の後夜祭のロゴ"} />
                 <WorkCard src={media1} text={"生協機関紙の表紙１"} />
