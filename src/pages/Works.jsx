@@ -16,13 +16,7 @@ import lineimgscan from "../assets/line-img-scan.png";
 export const Works = () => {
     return (
         <>
-            <h1
-                style={{
-                    textAlign: "left",
-                    marginLeft: "10px",
-                }}>
-                Works
-            </h1>
+            <h1 style={{ textAlign: "left", marginLeft: "5%" }}>Works</h1>
 
             <p
                 style={{

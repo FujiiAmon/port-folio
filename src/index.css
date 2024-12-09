@@ -28,6 +28,15 @@ body {
     display: flex;
     place-items: center;
     width: 100%;
+
+    background-image: linear-gradient(
+            rgba(210, 210, 210, 0.4) 1px,
+            transparent 1px
+        ),
+        linear-gradient(to right, rgba(210, 210, 210, 0.4) 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-color: #fff;
+    background-position: -14px 14px;
 }
 
 h1 {
