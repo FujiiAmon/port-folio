@@ -31,5 +31,5 @@ const SHeader = styled.header`
     position: left;
     display: flex;
     justify-content: space-around;
-    background-color: #b2b0b0;
+    background-color: slategrey;
 `;
