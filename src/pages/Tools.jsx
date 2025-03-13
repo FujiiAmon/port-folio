@@ -105,11 +105,12 @@ export const Tools = () => {
 
 const SGrid = styled.div`
     width: 90%;
-    margin: auto;
+    margin: 1rem auto;
     background-color: aquamarine;
+    box-shadow: 0.5rem 0.5rem 0 rgb(10, 200, 200, 1);
     display: grid;
-    gap: 3vh;
-    padding: 3vh;
+    gap: 1rem;
+    padding: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     border-radius: 10px;
 `;

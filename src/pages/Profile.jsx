@@ -5,8 +5,8 @@ import { SDl } from "../components/style/SDl";
 export const Profile = () => {
     return (
         <>
-            <h1 style={{ textAlign: "left", marginLeft: "5%" }}>About</h1>
-            <SContainer style={{ margin: "0 auto" }}>
+            <h1 style={{ textAlign: "left", marginLeft: "1rem" }}>About</h1>
+            <SContainer style={{ margin: "1rem auto", padding: "1rem 0rem" }}>
                 <SP>Profile</SP>
                 <SDl>
                     <dt>名前</dt>
@@ -31,7 +31,7 @@ export const Profile = () => {
                 </SDl>
             </SContainer>
             <br />
-            <SContainer style={{ margin: "0 auto" }}>
+            <SContainer style={{ margin: "1rem auto", padding: "1rem 0rem" }}>
                 <SP>MyHistory</SP>
                 <SDl>
                     <dt>2022.3</dt>

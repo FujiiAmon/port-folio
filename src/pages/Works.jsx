@@ -59,9 +59,9 @@ export const Works = () => {
                     link={
                         "https://judge-man-xahackason-qphxi3kck-fujiiamons-projects.vercel.app/"
                     }
-                    text={"JudgeManエクサウィザーズのハッカソンで受賞"}
+                    text={"JudgeMan※エクサウィザーズのハッカソンで受賞"}
                     des={
-                        "エクサウィザーズ主催のハッカソンで作成し、優勝。AIを用いた採用活動の業務を効率化するためのWEBアプリ。５日間かけて３人で開発に取り組み、課題の洗い出し～要件定義～開発と丁寧に取り組んだ。フロント全般とバックエンドのサポートをした。リンク先はフロントでモックデータを表示しているもの。"
+                        "エクサウィザーズ主催のハッカソンで作成し、優勝。AIを用いた採用活動を効率化するアプリ。５日間かけて３人で開発に取り組み、課題調査～要件定義～開発と丁寧に取り組んだ。フロント全般とバックエンドのサポートをした。"
                     }
                 />
                 <WorkCard
@@ -69,7 +69,7 @@ export const Works = () => {
                     link={"https://fujiiamon.github.io/appleple-assinment/"}
                     text={"写真の枚数に応じてレイアウトを整えるjsプログラム"}
                     des={
-                        "cssの勉強がしたくなり、実際のweb制作会社での仕事を聞くのが手っ取り早いかと思ってアップルップルさんのところで3daysのインターンに参加してこの課題をした(公開許可取得済み)。プレーンのjsで記述したり、レスポンシブを意識したりと今まで考えてこなかったことを考えて制作をした。"
+                        "cssの勉強がしたくなって作ってみた。プレーンのjsで記述したり、レスポンシブを意識したりと今まで考えてこなかったことを考えて制作をした。"
                     }
                 />
                 <WorkCard
@@ -109,7 +109,7 @@ export const Works = () => {
                     link={"https://fujiiamon.github.io/icon-gen/"}
                     text={"studicon"}
                     des={
-                        "技育ハッカソンに出場して作成。2日間かけて4人で取り組んだ。生成AIでアイコンを作る&編集&アップロードする機能を開発。メンバーは即席だったので、各々が使える技術を採用してNext.jsとpythonを使用。自身は2つを繋ぐためにpythonでFastAPIを担当。(コストの都合で機能停止中)"
+                        "技育ハッカソンに出場して作成。2日間かけて4人で取り組んだ。生成AIでアイコンを作る&編集&アップロードする機能を開発。即席メンバーで各々が使える技術を採用し、Next.jsとpythonを使用。FastAPItoとバックエンドのサポートを担当。"
                     }
                 />
                 <WorkCard
@@ -117,7 +117,7 @@ export const Works = () => {
                     link={"https://fujiiamon.github.io/beginners-hackason/"}
                     text={"コミュニケーション促進アプリ"}
                     des={
-                        "trackjobさん主催のビギナーズハッカソンに参加した際際に成。初対面の２人と８時間くらいかけて作成。テーマは「きっかけ」と「練習」。会うきっかけを作るための「パスコード交換機能」と会話を練習するための「AIとの会話練習機能」を実装。また、お互い共通して使用できる技術がhtml,css,jsだったのでこの３つのみで作成した。ハッカソンでは技術力以外よりも「機能を絞って実装しきる力」と「コミュ力」の２つが大事だなと思った。デプロイが上手くできない、、、"
+                        "trackjobさんのビギナーズハッカソンに参加して作成。初対面の人と２人で８時間くらいかけて作成。。会うきっかけを作るための「パスコード交換機能」と会話を練習するための「AIとの会話練習機能」を実装。お互い共通して使用できる技術がhtml,css,jsだったのでこの３つのみで作成。技術力以外にも「機能を絞って実装しきる力」と「コミュ力」が大事だなと思った。"
                     }
                 />
                 <WorkCard
@@ -152,13 +152,7 @@ export const Works = () => {
                     src={techbase}
                     text={"TECH-BASEでMVPを獲得!!"}
                     des={
-                        "１か月間8人のチームでPHPの勉強をしてチーム間で成果を競う無償インターンに参加しました。ありがたいことに優勝＆MVP獲得しました。とても忙しかったですが、遠くの人とまめに連絡をとって作業をするのが新鮮で面白かったです。"
-                    }></WorkCard>
-                <WorkCard
-                    src={techbase}
-                    text={"TECH-BASEでMVPを獲得!!"}
-                    des={
-                        "１か月間8人のチームでPHPの勉強をしてチーム間で成果を競う無償インターンに参加しました。ありがたいことに優勝＆MVP獲得しました。とても忙しかったですが、遠くの人とまめに連絡をとって作業をするのが新鮮で面白かったです。"
+                        "１か月間8人のチームでPHPの勉強をしてチーム間で成果を競う無償インターンに参加した。ありがたいことに優勝＆MVP獲得。とても忙しかったが、遠くの人とまめに連絡をとって作業をするのが新鮮で面白かった。"
                     }></WorkCard>
                 <WorkCard src={kasou} text={"名大祭の企画宣伝ビラを作成"} />
                 <WorkCard src={kouya} text={"名大祭の後夜祭のロゴを作成"} />
@@ -171,10 +165,11 @@ export const Works = () => {
 
 const SGrid = styled.div`
     background-color: violet;
-    display: grid;
-    margin: 3%;
-    padding: 2%;
-    gap: 3vh;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    box-shadow: 0.5rem 0.5rem 0 rgb(211, 80, 160, 1);
+    margin: 1rem;
+    padding: 1rem;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
 `;
