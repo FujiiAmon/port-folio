@@ -15,6 +15,8 @@ import lineimgscan from "../assets/line-img-scan.png";
 import youtubeapp from "../assets/youtube-app.png";
 import tspopt from "../assets/tsp-opt.png";
 import studicon from "../assets/studicon.png";
+import exawizards from "../assets/exawizards-slide.pdf";
+import teamlab from "../assets/teamlab.png";
 
 export const Works = () => {
     return (
@@ -50,6 +52,16 @@ export const Works = () => {
                     text={"巡回セールスマン問題"}
                     des={
                         "大学の専攻内容で取り組んだ。c言語で書いており、アルゴリズムとしては2opt法と焼きなまし法という手法を用いている。"
+                    }
+                />
+                <WorkCard
+                    src={exawizards}
+                    link={
+                        "https://judge-man-xahackason-qphxi3kck-fujiiamons-projects.vercel.app/"
+                    }
+                    text={"JudgeManエクサウィザーズのハッカソンで受賞"}
+                    des={
+                        "エクサウィザーズ主催のハッカソンで作成し、優勝。AIを用いた採用活動の業務を効率化するためのWEBアプリ。５日間かけて３人で開発に取り組み、課題の洗い出し～要件定義～開発と丁寧に取り組んだ。フロント全般とバックエンドのサポートをした。リンク先はフロントでモックデータを表示しているもの。"
                     }
                 />
                 <WorkCard
@@ -131,15 +143,27 @@ export const Works = () => {
             </p>
             <SGrid>
                 <WorkCard
+                    src={teamlab}
+                    text={"チームラボのインターンに参加"}
+                    des={
+                        "ソリューションカタリストという業種で２週間インターンに従事。WEBアプリの改善を行い、UI/UXの課題洗い出し～改善～新規施策の検討の流れを学ぶことができた。"
+                    }></WorkCard>
+                <WorkCard
                     src={techbase}
                     text={"TECH-BASEでMVPを獲得!!"}
                     des={
                         "１か月間8人のチームでPHPの勉強をしてチーム間で成果を競う無償インターンに参加しました。ありがたいことに優勝＆MVP獲得しました。とても忙しかったですが、遠くの人とまめに連絡をとって作業をするのが新鮮で面白かったです。"
                     }></WorkCard>
-                <WorkCard src={kasou} text={"名大祭の企画宣伝ビラ"} />
-                <WorkCard src={kouya} text={"名大祭の後夜祭のロゴ"} />
-                <WorkCard src={media1} text={"生協機関紙の表紙１"} />
-                <WorkCard src={media2} text={"生協機関紙の表紙２"} />
+                <WorkCard
+                    src={techbase}
+                    text={"TECH-BASEでMVPを獲得!!"}
+                    des={
+                        "１か月間8人のチームでPHPの勉強をしてチーム間で成果を競う無償インターンに参加しました。ありがたいことに優勝＆MVP獲得しました。とても忙しかったですが、遠くの人とまめに連絡をとって作業をするのが新鮮で面白かったです。"
+                    }></WorkCard>
+                <WorkCard src={kasou} text={"名大祭の企画宣伝ビラを作成"} />
+                <WorkCard src={kouya} text={"名大祭の後夜祭のロゴを作成"} />
+                <WorkCard src={media1} text={"生協機関紙の表紙１を作成"} />
+                <WorkCard src={media2} text={"生協機関紙の表紙２を作成"} />
             </SGrid>
         </>
     );

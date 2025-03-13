@@ -11,29 +11,37 @@ export const Tools = () => {
                     src={"https://img.icons8.com/color/96/python--v1.png"}
                     text={"Python"}
                     lev={":★★☆☆☆"}
-                    des={"大学の授業で習得。ゲームを少し作成。"}
+                    des={"ゲームを少し作成。言語モデルを使用した開発でも使用。"}
                 />
                 <ToolCard
                     src={"https://img.icons8.com/color/96/c-plus-plus-logo.png"}
                     text={"C++"}
                     lev={":★★☆☆☆"}
-                    des={"大学の授業で習得。授業の数値解析で使用。"}
+                    des={"数値解析やアルゴリズムの実装で使用。"}
                 />
                 <ToolCard
                     src={"https://img.icons8.com/color/96/html-5--v1.png"}
                     text={"html"}
                     lev={":★☆☆☆☆"}
-                    des={"プレーンで使用することはほぼナシ。現在勉強中。"}
+                    des={"プレーンで使用することはほぼナシ。"}
                 />
                 <ToolCard
                     src={"https://img.icons8.com/color/96/css3.png"}
                     text={"CSS"}
                     lev={":★★☆☆☆"}
-                    des={"プレーンで使用することはほぼナシ。現在勉強中。"}
+                    des={
+                        "プレーンで使用することはほぼナシ。最近はtailwindをよく使う。"
+                    }
                 />
                 <ToolCard
                     src={"https://img.icons8.com/color/96/react-native.png"}
                     text={"react"}
+                    lev={":★★★☆☆"}
+                    des={"自主制作でいくつかのアプリを作った。"}
+                />
+                <ToolCard
+                    src={"https://img.icons8.com/color/96/nextjs.png"}
+                    text={"next"}
                     lev={":★★☆☆☆"}
                     des={"自主制作でいくつかのアプリを作った。現在勉強中。"}
                 />
@@ -43,13 +51,13 @@ export const Tools = () => {
                     }
                     text={"teams"}
                     lev={":★★★★☆"}
-                    des={"名大祭実行委員会の仕事に使用。"}
+                    des={"学園祭の仕事で使用していた。"}
                 />
                 <ToolCard
                     src={"https://img.icons8.com/color/96/slack.png"}
                     text={"slack"}
                     lev={":★★★☆☆"}
-                    des={"オープンキャンパスの仕事に使用。"}
+                    des={"オープンキャンパスの仕事やインターン業務で使用。"}
                 />
                 <ToolCard
                     src={
@@ -57,22 +65,22 @@ export const Tools = () => {
                     }
                     text={"illustrater"}
                     lev={":★★★★☆"}
-                    des={"デザイン作成、設営図・設計図の作成に使用。"}
+                    des={"デザイン作成、学園祭時代には設計図の作成に使用。"}
                 />
 
                 <ToolCard
                     src={"https://img.icons8.com/fluency/96/canva.png"}
                     text={"canva"}
                     lev={":★★★☆☆"}
-                    des={"illustrater/inkscapeと併用。"}
+                    des={
+                        "illustrater/inkscapeと併用。最近のスライド作成は大体これ。"
+                    }
                 />
                 <ToolCard
                     src={"https://img.icons8.com/color/96/figma--v1.png"}
                     text={"Figma"}
                     lev={":★☆☆☆☆"}
-                    des={
-                        "JPHACKSのアプリ開発で出会ってから図の作成などに使用。"
-                    }
+                    des={"WFの作成などに使用。"}
                 />
                 <ToolCard
                     src={
