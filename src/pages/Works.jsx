@@ -165,7 +165,7 @@ export const Works = () => {
 
 const SGrid = styled.div`
     background-color: violet;
-    box-shadow: 0.5rem 0.5rem 0 rgb(211, 80, 160, 1);
+    box-shadow: 0.5rem 0.5rem 0 rgb(210, 80, 160, 1);
     margin: 1rem;
     padding: 1rem;
     border-radius: 10px;

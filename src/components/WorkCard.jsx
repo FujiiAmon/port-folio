@@ -10,8 +10,9 @@ export const WorkCard = (props) => {
     useEffect(() => {
         if (elementRef.current) {
             setElementHeight(elementRef.current.clientHeight);
+            // console.log(elementHeight);
         }
-    }, []);
+    }, [elementHeight]);
 
     return (
         <>
