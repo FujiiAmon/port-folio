@@ -4,9 +4,9 @@ import { SDl } from "../components/style/SDl";
 
 export const Profile = () => {
     return (
-        <>
-            <h1 style={{ textAlign: "left", marginLeft: "1rem" }}>About</h1>
-            <SContainer style={{ margin: "1rem auto", padding: "1rem 0rem" }}>
+        <div className="page-shell page-profile">
+            <h1 className="section-heading">About</h1>
+            <SContainer style={{ margin: "1rem auto 1.5rem" }}>
                 <SP>Profile</SP>
                 <SDl>
                     <dt>名前</dt>
@@ -30,8 +30,7 @@ export const Profile = () => {
                     </dd>
                 </SDl>
             </SContainer>
-            <br />
-            <SContainer style={{ margin: "1rem auto", padding: "1rem 0rem" }}>
+            <SContainer>
                 <SP>MyHistory</SP>
                 <SDl>
                     <dt>2022.3</dt>
@@ -44,11 +43,11 @@ export const Profile = () => {
                     </dd>
                     <dt>2022.10</dt>
                     <dd>
-                        秋革祭実行委員会としてステージ企画を運営して約150人を動員。
+                        秋革祭実行委員会としてステージ企画を運営して約150人を動 員。
                     </dd>
                     <dt>2023.6</dt>
                     <dd>
-                        名大祭実行委員会として後夜祭企画を運営して約300人を動員。
+                        名大祭実行委員会として後夜祭企画を運営して約300人を動員 。
                     </dd>
                     <dt>2023.8</dt>
                     <dd>
@@ -60,7 +59,7 @@ export const Profile = () => {
                     </dd>
                     <dt>2023.10</dt>
                     <dd>
-                        JPHACKSに出場。周りの助けを借りながらアプリケーションのフロント開発を担当。
+                        JPHACKSに出場。周りの助けを借りながらアプリケーションの フロント開発を担当。
                     </dd>
                     <dt>2024. 8</dt>
                     <dd>名大祭実行委員会を引退。</dd>
@@ -82,6 +81,6 @@ export const Profile = () => {
                     <dd>チームラボのインターンシップに2週間参加。</dd>
                 </SDl>
             </SContainer>
-        </>
+        </div>
     );
 };
