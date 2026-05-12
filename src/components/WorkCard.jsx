@@ -51,9 +51,9 @@ const SCard = styled.article`
     margin: 0;
     padding: 1rem;
     border-radius: 1.35rem;
-    border: 1px solid rgba(92, 68, 44, 0.08);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(247, 242, 234, 0.98));
-    box-shadow: 0 18px 36px rgba(82, 63, 42, 0.08);
+    border: 1px solid rgba(91, 124, 250, 0.08);
+    background: #ffffff;
+    box-shadow: 0 18px 36px rgba(91, 124, 250, 0.08);
     overflow: hidden;
     grid-row: span ${({ $rowSpan }) => $rowSpan};
     transition:
@@ -62,7 +62,7 @@ const SCard = styled.article`
 
     &:hover {
         transform: translateY(-3px);
-        box-shadow: 0 24px 42px rgba(82, 63, 42, 0.12);
+        box-shadow: 0 24px 42px rgba(91, 124, 250, 0.12);
     }
 `;
 
@@ -72,9 +72,9 @@ const SCardLink = styled.a`
     max-width: 100%;
     padding: 0.45rem 0.7rem;
     border-radius: 999px;
-    background: rgba(111, 77, 42, 0.08);
-    border: 1px solid rgba(111, 77, 42, 0.1);
-    color: #5f4631;
+    background: rgba(91, 124, 250, 0.08);
+    border: 1px solid rgba(91, 124, 250, 0.12);
+    color: #40507a;
     font-size: 0.92rem;
     font-weight: 800;
     line-height: 1.4;
@@ -86,9 +86,9 @@ const SCardTitle = styled.p`
     max-width: 100%;
     padding: 0.45rem 0.7rem;
     border-radius: 999px;
-    background: rgba(111, 77, 42, 0.08);
-    border: 1px solid rgba(111, 77, 42, 0.1);
-    color: #5f4631;
+    background: rgba(91, 124, 250, 0.08);
+    border: 1px solid rgba(91, 124, 250, 0.12);
+    color: #40507a;
     font-size: 0.92rem;
     font-weight: 800;
     line-height: 1.4;
@@ -97,8 +97,8 @@ const SCardTitle = styled.p`
 const SMediaFrame = styled.div`
     border-radius: 1rem;
     overflow: hidden;
-    background: linear-gradient(180deg, #f6f1e8 0%, #f0eadf 100%);
-    border: 1px solid rgba(92, 68, 44, 0.08);
+    background: #f4f8ff;
+    border: 1px solid rgba(91, 124, 250, 0.08);
 `;
 
 const SPreview = styled.object`
@@ -106,19 +106,20 @@ const SPreview = styled.object`
     min-height: 260px;
     aspect-ratio: 4 / 3;
     object-fit: contain;
-    background: #f6f1e8;
+    background: rgba(238, 244, 255, 0.96);
 `;
 
 const SPreviewImage = styled.img`
     width: 100%;
     min-height: 260px;
     aspect-ratio: 4 / 3;
-    object-fit: cover;
+    object-fit: contain;
+    background: rgba(238, 244, 255, 0.96);
 `;
 
 const SDescription = styled.p`
     margin: 0;
-    color: rgba(47, 42, 36, 0.86);
+    color: rgba(36, 48, 64, 0.86);
     line-height: 1.75;
     overflow-wrap: break-word;
     font-size: 0.95rem;

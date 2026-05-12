@@ -5,7 +5,7 @@ export const SDl = styled.dl`
     margin: 0;
     color: #3d342c;
     background: rgba(255, 255, 255, 0.72);
-    border: 1px solid rgba(92, 68, 44, 0.08);
+    border: 1px solid rgba(91, 124, 250, 0.08);
     border-radius: 1.1rem;
     text-align: left;
     padding: 1rem 1.1rem;
@@ -13,7 +13,7 @@ export const SDl = styled.dl`
     dt {
         margin-top: 0.95rem;
         font-weight: 700;
-        color: #5f4631;
+        color: #5b7cfa;
     }
 
     dd {

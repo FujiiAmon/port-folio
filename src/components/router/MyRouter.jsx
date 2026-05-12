@@ -12,8 +12,7 @@ export const MyRouter = () => {
                     <SBrand>
                         <SBrandMark>FA</SBrandMark>
                         <div>
-                            <SBrandTitle>PortFolio</SBrandTitle>
-                            <SBrandCaption>Thinking, building, refining.</SBrandCaption>
+                            <SBrandTitle>FujiiAmon PortFolio</SBrandTitle>
                         </div>
                     </SBrand>
                     <SNav>
@@ -46,12 +45,12 @@ const SHeader = styled.header`
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    background: rgba(248, 242, 233, 0.78);
+    background: rgba(255, 255, 255, 0.82);
     backdrop-filter: blur(18px);
-    border: 1px solid rgba(82, 63, 42, 0.08);
+    border: 1px solid rgba(91, 124, 250, 0.12);
     border-radius: 1.5rem;
-    box-shadow: 0 18px 48px rgba(82, 63, 42, 0.08);
-    margin-top: 0.9rem;
+    box-shadow: 0 18px 48px rgba(91, 124, 250, 0.08);
+    margin-top: 0;
 `;
 
 const SApp = styled.div`
@@ -78,8 +77,8 @@ const SBrandMark = styled.span`
     align-items: center;
     justify-content: center;
     font-weight: 800;
-    color: #f7f2ea;
-    background: linear-gradient(135deg, #1f1a16 0%, #6f4d2a 100%);
+    color: #ffffff;
+    background: linear-gradient(135deg, #5b7cfa 0%, #49cfa2 100%);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
 `;
 
@@ -87,13 +86,13 @@ const SBrandTitle = styled.p`
     margin: 0;
     font-weight: 800;
     font-size: 1.05rem;
-    color: #1f1a16;
+    color: #243040;
 `;
 
 const SBrandCaption = styled.p`
     margin: 0;
     font-size: 0.82rem;
-    color: rgba(31, 26, 22, 0.7);
+    color: rgba(36, 48, 64, 0.7);
 `;
 
 const SNav = styled.nav`
@@ -106,9 +105,9 @@ const SNav = styled.nav`
 const SNavLink = styled(NavLink)`
     padding: 0.75rem 1rem;
     border-radius: 999px;
-    color: rgba(31, 26, 22, 0.78);
+    color: rgba(36, 48, 64, 0.78);
     border: 1px solid transparent;
-    background: rgba(255, 255, 255, 0.42);
+    background: rgba(255, 255, 255, 0.74);
     transition:
         transform 180ms ease,
         background-color 180ms ease,
@@ -117,14 +116,14 @@ const SNavLink = styled(NavLink)`
         box-shadow 180ms ease;
 
     &.active {
-        color: #1f1a16;
-        background: rgba(255, 255, 255, 0.9);
-        border-color: rgba(111, 77, 42, 0.18);
-        box-shadow: 0 10px 22px rgba(82, 63, 42, 0.1);
+        color: #243040;
+        background: rgba(255, 255, 255, 0.98);
+        border-color: rgba(91, 124, 250, 0.18);
+        box-shadow: 0 10px 22px rgba(91, 124, 250, 0.1);
     }
 
     &:hover {
         transform: translateY(-1px);
-        border-color: rgba(111, 77, 42, 0.16);
+        border-color: rgba(91, 124, 250, 0.16);
     }
 `;
